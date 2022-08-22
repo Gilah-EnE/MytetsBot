@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mytetsbot"
-version = "0.1.0"
+version = "0.2.0"
 description = "Інлайн-бот для Telegram з найкращими цитатами Леся Подерв'янського"
 authors = ["Artem <63448341+Gilah-EnE@users.noreply.github.com>"]
 license = "GPLv3"
@@ -9,6 +9,7 @@ license = "GPLv3"
 python = "^3.10"
 aiogram = "^2.22.1"
 aiosqlite = "^0.17.0"
+beautifulsoup4 = "^4.11.1"
 
 [tool.poetry.dev-dependencies]
 bandit = "^1.7.4"
